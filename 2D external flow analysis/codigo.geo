@@ -37,8 +37,6 @@ Line Loop(9) = {5,6,7,8};
 
 Plane Surface(100) = {9, 21};  
 
-
-
 //+
 Extrude {0, 0, 0.1} {
   Surface{100}; Layers {1}; Recombine;
